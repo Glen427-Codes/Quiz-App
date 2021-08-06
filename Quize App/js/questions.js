@@ -80,15 +80,49 @@ let questions = [
   {
       numb: 7,
       question: "What keyword is used to create a javascript variable?",
-      answwer: "myFunction()",
+      answwer: "var",
       options: [
           "variable",
           "varies",
           "string",
           "var"
       ]
+    },
+      {
+          numb: 8,
+          question: "var a = []; What does 'typeof a' return",
+          answer: "object",
+          options: [
+              "object",
+              "array",
+              "string",
+              "undefined"
+          ]
+      },
+      {
+          numb: 9,
+          question: "Are css property names case sensitive?",
+          answer: "False",
+          options: [
+              "True",
+              "Depends",
+              "False",
+              "Partially"
+          ]
+      },
+      {
+          numb: 10,
+          question: "Which snippet of css is commonly used to center a website horizontally?",
+          answer: "margin: 0 auto;",
+          options: [
+              "site-align: center;",
+              "margin: center",
+              "margin: auto 0;",
+              "margin: 0 auto;"
+          ]
+      }
 
-  }
+  
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
